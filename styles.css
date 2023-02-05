@@ -13,7 +13,7 @@ body {
 
 .page-wrapper {
     width: fit-content;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: row;
 }
@@ -113,6 +113,10 @@ body {
     text-align: center;
     font-size: 16px;
     color: #D6CCC3;
+}
+
+.buttons > a:hover {
+    background-color: #5B483E;
 }
 
 /*  PAGE - RIGHT      PAGE - RIGHT     PAGE - RIGHT  */
