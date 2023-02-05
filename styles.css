@@ -1,5 +1,5 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Cabin&family=Cormorant+Garamond:wght@500&family=Fondamento&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Cabin&family=Cormorant+Garamond:wght@500&family=Fondamento&family=Libre+Baskerville&family=Lora&family=Raleway&display=swap');
 
 *{
     margin: 0;
@@ -149,8 +149,9 @@ body {
 }
 
 #life-time {
-    font-style: italic;
     margin-left: 50px;
+    font-family: 'Lora', serif;
+    font-style: italic;
 }
 
 #img-big-wrapper {
