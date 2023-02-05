@@ -51,7 +51,8 @@ body {
 #title {
     margin-top: 35px;
     margin-left: 37px;
-    font-family: 'Aladin', cursive;
+    font-family: 'Fondamento', cursive;
+    letter-spacing: 2px;
     color: #D6CCC3;
 }
 
