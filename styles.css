@@ -1,5 +1,5 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Fondamento&family=Lexend+Mega&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Fondamento&family=Raleway&display=swap');
 
 *{
     margin: 0;
@@ -80,8 +80,7 @@ body {
     text-indent: 20px;
     line-height: 155%;
     color: #D6CCC3;
-    font-family: 'Lexend Mega', sans-serif;
-    word-spacing: 30px;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
 .ensinament > p:last-child {border-bottom: 2px solid #D6CCC3;
@@ -179,7 +178,6 @@ body {
     text-align: justify;
     color: #40352E;
     text-indent: 20px;
-    font-family: 'Lexend Mega', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
-    word-spacing: 30px;
 }
