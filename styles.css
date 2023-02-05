@@ -74,12 +74,13 @@ body {
     margin-left: 37px;
     padding-top: 25px;
     padding-bottom: 32px;
+    border-bottom: 2px solid #D6CCC3;
     overflow: hidden;
     text-align: justify;
     text-indent: 20px;
     line-height: 155%;
     color: #D6CCC3;
-    border-bottom: 2px solid #D6CCC3;
+    font-family: 'Lexend Mega', sans-serif;
 }
 .ensinament > p:last-child {border-bottom: 2px solid #D6CCC3;
 }
@@ -176,4 +177,5 @@ body {
     text-align: justify;
     color: #40352E;
     text-indent: 20px;
+    font-family: 'Lexend Mega', sans-serif;
 }
