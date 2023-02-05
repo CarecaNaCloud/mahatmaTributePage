@@ -1,5 +1,4 @@
 /* FONTS */
-/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Cabin&family=Cormorant+Garamond:wght@500&family=Fondamento&family=Libre+Baskerville&family=Lora&family=Raleway&display=swap');
 
 *{
@@ -9,6 +8,8 @@
     text-decoration: none;
     list-style: none;
     border: none;
+    /* font-family: 'Cormorant Garamond', serif; */
+    /* letter-spacing: 1px; */
 }
 
 body {
@@ -45,9 +46,11 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
     color:#5B483E;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    /* font-size: 2em; */
 }
 
 .menu-link:hover {
@@ -89,7 +92,8 @@ body {
     line-height: 155%;
     color: #D6CCC3;
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: 'Cormorant Garamond', serif;
 }
 .ensinament > p:last-child {border-bottom: 2px solid #D6CCC3;
 }
@@ -110,6 +114,9 @@ body {
 #img-caption {
     padding-left: 15px;
     color: #D6CCC3;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 
 #tribute-info {
@@ -131,8 +138,10 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: #D6CCC3;
+    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Raleway', sans-serif; */
 }
 
 .buttons > a:hover {
@@ -181,6 +190,8 @@ body {
     margin-right: 35px;
     text-align: justify;
     color: #40352E;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
 }
 
 .history-paragraph {
@@ -190,6 +201,6 @@ body {
     text-align: justify;
     color: #40352E;
     text-indent: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
 }
