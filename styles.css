@@ -40,6 +40,11 @@ body {
     color:#5B483E;
 }
 
+.menu-link:hover {
+    background-color: #5B483E;
+    color: #9A8D80;
+}
+
 #title {
     margin-top: 35px;
     margin-left: 37px;
