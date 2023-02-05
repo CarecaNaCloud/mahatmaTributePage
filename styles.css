@@ -1,5 +1,5 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Fondamento&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Cabin&family=Cormorant+Garamond:wght@500&family=Fondamento&family=Raleway&display=swap');
 
 *{
     margin: 0;
@@ -62,8 +62,8 @@ body {
     margin-left: 37px;
     padding-bottom: 20px;
     border-bottom: #D6CCC3;
-    /* text-align: center; */
     line-height: 155%;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 14px;
     color: #D6CCC3;
 }
