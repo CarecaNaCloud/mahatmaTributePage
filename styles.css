@@ -18,7 +18,7 @@ body {
 
 .page-wrapper {
     width: fit-content;
-    margin: 30px auto 5px;
+    margin: 30px auto;
     display: flex;
     flex-direction: row;
 }
@@ -154,6 +154,7 @@ body {
     position: relative;
     width: 544px;
     height: 910px;
+    overflow: hidden;
     background-color: #D2C4B0 ;
 }
 
