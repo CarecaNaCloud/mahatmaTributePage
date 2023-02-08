@@ -27,7 +27,7 @@ body {
 
 .page-left {
     width: 544px;
-    height: 910px;
+    height: 920px;
     background: linear-gradient(153.86deg, #3B322B -9.32%, #4E3E35 34.52%, #5B483E 48.75%, #4E3E35 62.99%, #3B322B 100%);
 }
 
@@ -153,7 +153,7 @@ body {
 .page-right {
     position: relative;
     width: 544px;
-    height: 910px;
+    height: 920px;
     overflow: hidden;
     background-color: #D2C4B0 ;
 }
