@@ -243,3 +243,14 @@ body {
 
 
 /* Change the text font size to 17px and the citation font-size to 15px */
+
+@media only screen and (max-width: 600px) {
+    .page-left {
+        display: none;
+    } 
+
+    .page-right {
+        
+    }
+  }
+  
