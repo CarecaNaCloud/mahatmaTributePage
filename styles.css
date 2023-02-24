@@ -21,6 +21,7 @@ body {
     margin: 30px auto;
     display: flex;
     flex-direction: row;
+    overflow:hidden;
 }
 
 /*  PAGE - LEFT  */
@@ -163,6 +164,8 @@ body {
     background-color: #D2C4B0 ;
 }
 
+.nav-right {display:none}
+
 .title-pageRight {
     margin-top: 23px;
     margin-left: 50px;
@@ -246,5 +249,39 @@ body {
 
 }
 
-
 /* Change the text font size to 17px and the citation font-size to 15px */
+
+@media only screen and (max-width: 425px) {
+    .page-left {
+        display: none; 
+    }
+
+    .nav-right {
+        background-color: #57473e   ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #D2C4B0;       
+    }
+
+    .nav-right-link {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 24px;
+        color: #D6CCC3;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Cormorant Garamond', serif;
+        /* font-size: 2em; */
+    }
+
+    .history-paragraph {
+        font-size: 20px;
+    }
+
+    #button-wrappers {
+        height: 60px;
+    }
+}
