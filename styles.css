@@ -14,13 +14,13 @@ body {
     background-color: #43362C;
 }
 
-.page-wrapper {
+.personality-wrapper {
     width: 100%;
     max-width: fit-content;
     margin: 30px auto;
     display: flex;
     flex-direction: row;
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 
 /* MOBILE */
@@ -50,7 +50,7 @@ body {
     padding: 10px 25px;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #D6CCC3;
 }
 
@@ -76,8 +76,10 @@ body {
 }
 
 #img-big {
-width: 345px;
-height: 437px;
+width: 280px;
+height: 350px;
+/* width: 345px;
+height: 437px; */
 margin-top: 20px;
 transform: scaleX(-1);
 }
@@ -88,9 +90,8 @@ transform: scaleX(-1);
     margin-right: 35px;
     text-align: justify;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     color: #40352E;
-    letter-spacing: 1px;
 }
 
 .history-paragraph {
@@ -100,7 +101,7 @@ transform: scaleX(-1);
     text-align: justify;
     text-indent: 20px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: #40352E;
 }
 
@@ -137,8 +138,7 @@ transform: scaleX(-1);
     border-left: 6px solid transparent;
 }
 
-
-    /* DESKTOP */
+    /* DESKTOP */  /* DESKTOP */ 
 
 @media only screen and (min-width: 450px) { 
 
@@ -269,15 +269,16 @@ transform: scaleX(-1);
         transform: scale(0.98)
     }
     
-    /*  PAGE - RIGHT      PAGE - RIGHT     PAGE - RIGHT  */
+    /*  PAGE - RIGHT  */
+    
     .nav-right {
         display: none;
     }
+    
     .history-title {
         font-size: 17px;
     }
 }
 
 
-/* Change the text font size to 17px and the citation font-size to 15px */
 
