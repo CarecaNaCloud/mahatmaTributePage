@@ -8,8 +8,6 @@
     text-decoration: none;
     list-style: none;
     border: none;
-    /* font-family: 'Cormorant Garamond', serif; */
-    /* letter-spacing: 1px; */
 }
 
 body {
@@ -17,169 +15,59 @@ body {
 }
 
 .page-wrapper {
-    width: fit-content;
+    width: 100%;
+    max-width: fit-content;
     margin: 30px auto;
     display: flex;
     flex-direction: row;
     overflow:hidden;
 }
 
-/*  PAGE - LEFT  */
+/* MOBILE */
 
 .page-left {
-    width: 544px;
-    height: 971px;
-    background: linear-gradient(153.86deg, #3B322B -9.32%, #4E3E35 34.52%, #5B483E 48.75%, #4E3E35 62.99%, #3B322B 100%);
+    display: none; 
 }
-
-.menu-wrapper {
-    background-color: #9A8D80;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.menu-wrapper > li {width: 100%}
-
-.menu-link {
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 20px;
-    color:#5B483E;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Cormorant Garamond', serif;
-    /* font-size: 2em; */
-}
-
-.menu-link:hover {
-    background-color: #5B483E;
-    font-weight: bold;
-    color: #9A8D80;
-}
-
-#title {
-    margin-top: 35px;
-    margin-left: 37px;
-    font-family: 'Fondamento', cursive;
-    letter-spacing: 2px;
-    color: #D6CCC3;
-}
-
-#subtitle-citation {
-    margin-top: -3px;
-    margin-right: 49px;
-    margin-left: 37px;
-    padding-bottom: 20px;
-    border-bottom: #D6CCC3;
-    line-height: 155%;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 15px;
-    color: #D6CCC3;
-}
-#subtitle-citation { border-bottom: 2px solid #D6CCC3;}
-
-.text-formatation {
-    margin-right: 49px;
-    margin-left: 37px;
-    padding-top: 25px;
-    padding-bottom: 32px;
-    border-bottom: 2px solid #D6CCC3;
-    overflow: hidden;
-    text-align: justify;
-    text-indent: 20px;
-    line-height: 155%;
-    color: #D6CCC3;
-    font-family: 'Raleway', sans-serif;
-    font-size: 17px;
-    font-family: 'Cormorant Garamond', serif;
-}
-.coreFundamental > p {border-bottom: 2px solid #D6CCC3;
-}
-
-#img-div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#image {
-    width: 74px;
-    height: auto;
-    margin-left: 37px;
-    margin-top: 13px;
-}
-
-#img-caption {
-    padding-left: 15px;
-    color: #D6CCC3;
-    font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 1px;
-    font-size: 18px;
-}
-
-#tribute-info {
-    padding-top: 12px;
-    border: none;
-}
-
-.buttons {
-    width: 457px;
-    margin: 0 auto;
-    border: 3px solid #D6CCC3;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.buttons > button {
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: 0;
-    text-align: center;
-    font-size: 18px;
-    color: #D6CCC3;
-    font-family: 'Cormorant Garamond', serif;
-    background-color: transparent;
-    /* font-family: 'Raleway', sans-serif; */
-}
-
-.buttons > button:hover {
-    background-color: #5B483E;
-}
-
-.buttons > button:active {
-    transform: scale(0.98)
-}
-/*  PAGE - RIGHT      PAGE - RIGHT     PAGE - RIGHT  */
 
 .page-right {
-    position: relative;
     width: 544px;
     height: 971px;
-    overflow: hidden;
+    position: relative;
     background-color: #D2C4B0 ;
+    overflow: hidden;
 }
 
-.nav-right {display:none}
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #57473e   ;
+}
+
+.nav-right-link {
+    display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    color: #D6CCC3;
+}
 
 .title-pageRight {
     margin-top: 23px;
     margin-left: 50px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 2em;
+    font-size: 2rem;
     letter-spacing: 1px;
     color: #40352e;
 }
 
 #life-time {
     margin-left: 50px;
-    font-style: italic;
-    font-size: 15px;
     font-family: 'Lora', serif;
+    font-size: 15px;
+    font-style: italic;
 }
 
 #img-big-wrapper {
@@ -188,10 +76,10 @@ body {
 }
 
 #img-big {
- width: 345px;
- height: 437px;
- margin-top: 20px;
- transform: scaleX(-1);
+width: 345px;
+height: 437px;
+margin-top: 20px;
+transform: scaleX(-1);
 }
 
 .history-title {
@@ -199,8 +87,9 @@ body {
     margin-left: 50px;
     margin-right: 35px;
     text-align: justify;
-    color: #40352E;
     font-family: 'Cormorant Garamond', serif;
+    font-size: 1.35rem;
+    color: #40352E;
     letter-spacing: 1px;
 }
 
@@ -209,10 +98,10 @@ body {
     margin-left: 50px;
     margin-right: 35px;
     text-align: justify;
-    color: #40352E;
     text-indent: 20px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 17px;
+    font-size: 1.25rem;
+    color: #40352E;
 }
 
 #button-wrapper {
@@ -246,42 +135,149 @@ body {
     border-top: 10px solid #D2C4B0;
     border-right: 6px solid transparent;
     border-left: 6px solid transparent;
-
 }
 
-/* Change the text font size to 17px and the citation font-size to 15px */
 
-@media only screen and (max-width: 425px) {
+    /* DESKTOP */
+
+@media only screen and (min-width: 450px) { 
+
+    /*  PAGE - LEFT  */
+
     .page-left {
-        display: none; 
+        display: block;
+        width: 544px;
+        height: 971px;
+        background: linear-gradient(153.86deg, #3B322B -9.32%, #4E3E35 34.52%, #5B483E 48.75%, #4E3E35 62.99%, #3B322B 100%);
     }
 
-    .nav-right {
-        background-color: #57473e   ;
+    .menu-wrapper {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
         align-items: center;
-        color: #D2C4B0;       
+        justify-content: space-evenly;
+        background-color: #9A8D80;
     }
 
-    .nav-right-link {
+    .menu-wrapper > li {width: 100%}
+
+    .menu-link {
         display: block;
         padding-top: 10px;
         padding-bottom: 10px;
         text-align: center;
-        font-size: 24px;
-        color: #D6CCC3;
-        font-family: 'Raleway', sans-serif;
         font-family: 'Cormorant Garamond', serif;
-        /* font-size: 2em; */
-    }
-
-    .history-paragraph {
         font-size: 20px;
+        color:#5B483E;
     }
 
-    #button-wrappers {
-        height: 60px;
+    .menu-link:hover {
+        background-color: #5B483E;
+        font-weight: bold;
+        color: #9A8D80;
+    }
+
+    #title {
+        margin-top: 35px;
+        margin-left: 37px;
+        font-family: 'Fondamento', cursive;
+        letter-spacing: 2px;
+        color: #D6CCC3;
+    }
+
+    #subtitle-citation {
+        margin-top: -3px;
+        margin-right: 49px;
+        margin-left: 37px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #D6CCC3;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1rem;
+        line-height: 155%;
+        color: #D6CCC3;
+    }
+
+    .text-formatation {
+        margin-right: 49px;
+        margin-left: 37px;
+        padding-top: 25px;
+        padding-bottom: 32px;
+        border-bottom: 2px solid #D6CCC3;
+        text-align: justify;
+        text-indent: 20px;
+        line-height: 155%;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 17px;
+        color: #D6CCC3;
+        overflow: hidden;
+    }
+    .coreFundamental > p {border-bottom: 2px solid #D6CCC3;
+    }
+
+    #img-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #image {
+        width: 74px;
+        height: auto;
+        margin-left: 37px;
+        margin-top: 13px;
+    }
+
+    #img-caption {
+        padding-left: 15px;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: #D6CCC3;
+    }
+
+    #tribute-info {
+        padding-top: 12px;
+        border: none;
+    }
+
+    .buttons {
+        width: 457px;
+        margin: 0 auto;
+        border: 3px solid #D6CCC3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .buttons > button {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 0;
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        color: #D6CCC3;
+        background-color: transparent;
+    }
+
+    .buttons > button:hover {
+        background-color: #5B483E;
+    }
+
+    .buttons > button:active {
+        transform: scale(0.98)
+    }
+    
+    /*  PAGE - RIGHT      PAGE - RIGHT     PAGE - RIGHT  */
+    .nav-right {
+        display: none;
+    }
+    .history-title {
+        font-size: 17px;
     }
 }
+
+
+/* Change the text font size to 17px and the citation font-size to 15px */
+
