@@ -1,14 +1,14 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Cabin&family=Cormorant+Garamond:wght@500&family=Fondamento&family=Libre+Baskerville&family=Lora&family=Raleway&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
     border: none;
-}
+} 
 
 body {
     background-color: #43362C;
@@ -23,13 +23,180 @@ body {
     /* overflow:hidden; */
 }
 
-/* MOBILE */
+    /*  PAGE - LEFT  */
 
-.page-left {
-    display: none; 
-}
+    .page-left {
+        display: block;
+        width: 544px;
+        height: 999px;
+        background: linear-gradient(153.86deg, #3B322B -9.32%, #4E3E35 34.52%, #5B483E 48.75%, #4E3E35 62.99%, #3B322B 100%);
+    }
 
-.page-right {
+    .menu-wrapper {
+        display: flex;
+        background-color: #9A8D80;
+    }
+
+    .menu-wrapper > li {width: 100%;}
+
+    .menu-link {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 20px;
+        color: #31201C;
+    }
+
+    .menu-link:hover {
+        background-color: #5B483E;
+        font-weight: bold;
+        color: #b3aaa1;
+    }
+
+    /* .menu-link:active {
+        font-size: 22px;
+    } */
+    
+    .menu-link span {
+        display: inline-block;
+        font-size: 1.4rem;
+        line-height: 0;
+    }
+        
+    .next-personality {
+        transform: rotateY(180deg);
+    }
+
+    #title {
+        margin-top: 35px;
+        margin-left: 37px;
+        font-family: 'Fondamento', cursive;
+        letter-spacing: 2px;
+        color: #D6CCC3;
+    }
+
+    .subtitle-citation {
+        display: block;
+        margin-top: -3px;
+        margin-right: 49px;
+        margin-left: 37px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #D6CCC3;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1rem;
+        line-height: 155%;
+        color: #D6CCC3;
+    }
+
+    .core-fundamental > p {border-bottom: 2px solid #D6CCC3;
+    }
+
+    .text-formatation {
+        margin-right: 49px;
+        margin-left: 37px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #D6CCC3;
+        text-align: justify;
+        text-indent: 22px;
+        line-height: 155%;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 17px;
+        color: #D6CCC3;
+    }
+
+    #img-div {
+        margin-top: 25px;
+    }
+    .img-wrapper {
+        max-width: 30%;
+        margin-left: 37px;
+        margin-top: 13px;
+        float: left;
+    }
+    
+    #image { /* A imagem precisa conter display: block; max-width: 100%; e height: auto;) */
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding-right: 20px;
+    }
+
+    #img-caption {
+        display: inline-block;
+        margin-top: 10px;
+        padding-left: 21px;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: #D6CCC3;
+    }
+
+    #tribute-info {
+        padding-top: 18px;
+        padding-bottom: 8px;
+        border: none;
+    }
+
+    .tribute-wiki {
+        padding-top: 0px;
+        border: none;
+    }
+
+    .tribute-wiki a {
+        color: #D6CCC3;
+        text-decoration: underline;
+    }
+
+    .tribute-wiki a:hover {
+        font-size: 1.05em;
+    }
+
+    .buttons {
+        width: 457px;
+        margin: 0 auto;
+        border: 3px solid #D6CCC3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .buttons > button {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 0;
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        color: #D6CCC3;
+        background-color: transparent;
+    }
+
+    .buttons > button:hover {
+        background-color: #5B483E;
+        cursor: pointer;
+    }
+
+    .buttons > button:active {
+        transform: scale(0.98)
+    }
+    
+    /*  PAGE - RIGHT  */
+    
+    .nav-right {
+        display: none;
+    }
+    
+    .history-title {
+        font-size: 17px;
+    }
+
+
+/* .page-right {
     width: 544px;
     height: 971px;
     position: relative;
@@ -79,7 +246,7 @@ body {
 width: 280px;
 height: 350px;
 /* width: 345px;
-height: 437px; */
+height: 437px; /
 margin-top: 20px;
 transform: scaleX(-1);
 }
@@ -136,149 +303,12 @@ transform: scaleX(-1);
     border-top: 10px solid #D2C4B0;
     border-right: 6px solid transparent;
     border-left: 6px solid transparent;
-}
+} */
 
     /* DESKTOP */  /* DESKTOP */ 
 
-@media only screen and (min-width: 450px) { 
+/* @media only screen and (min-width: 450px) {  */
 
-    /*  PAGE - LEFT  */
-
-    .page-left {
-        display: block;
-        width: 544px;
-        height: 971px;
-        background: linear-gradient(153.86deg, #3B322B -9.32%, #4E3E35 34.52%, #5B483E 48.75%, #4E3E35 62.99%, #3B322B 100%);
-    }
-
-    .menu-wrapper {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        background-color: #9A8D80;
-    }
-
-    .menu-wrapper > li {width: 100%}
-
-    .menu-link {
-        display: block;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: center;
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 20px;
-        color:#5B483E;
-    }
-
-    .menu-link:hover {
-        background-color: #5B483E;
-        font-weight: bold;
-        color: #9A8D80;
-    }
-
-    #title {
-        margin-top: 35px;
-        margin-left: 37px;
-        font-family: 'Fondamento', cursive;
-        letter-spacing: 2px;
-        color: #D6CCC3;
-    }
-
-    #subtitle-citation {
-        margin-top: -3px;
-        margin-right: 49px;
-        margin-left: 37px;
-        padding-bottom: 20px;
-        border-bottom: 2px solid #D6CCC3;
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 1rem;
-        line-height: 155%;
-        color: #D6CCC3;
-    }
-
-    .text-formatation {
-        margin-right: 49px;
-        margin-left: 37px;
-        padding-top: 25px;
-        padding-bottom: 32px;
-        border-bottom: 2px solid #D6CCC3;
-        text-align: justify;
-        text-indent: 20px;
-        line-height: 155%;
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 17px;
-        color: #D6CCC3;
-        overflow: hidden;
-    }
-    .coreFundamental > p {border-bottom: 2px solid #D6CCC3;
-    }
-
-    #img-div {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    #image {
-        width: 74px;
-        height: auto;
-        margin-left: 37px;
-        margin-top: 13px;
-    }
-
-    #img-caption {
-        padding-left: 15px;
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 18px;
-        letter-spacing: 1px;
-        color: #D6CCC3;
-    }
-
-    #tribute-info {
-        padding-top: 12px;
-        border: none;
-    }
-
-    .buttons {
-        width: 457px;
-        margin: 0 auto;
-        border: 3px solid #D6CCC3;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-    .buttons > button {
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        border: 0;
-        text-align: center;
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 18px;
-        color: #D6CCC3;
-        background-color: transparent;
-    }
-
-    .buttons > button:hover {
-        background-color: #5B483E;
-    }
-
-    .buttons > button:active {
-        transform: scale(0.98)
-    }
-    
-    /*  PAGE - RIGHT  */
-    
-    .nav-right {
-        display: none;
-    }
-    
-    .history-title {
-        font-size: 17px;
-    }
-}
 
 
 
